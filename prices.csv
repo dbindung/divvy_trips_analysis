@@ -1,0 +1,60 @@
+Year,Bike_Type,Bike_Count,Tariff_Type,Price,Unlock_Fee,Free_Period,Per_Minute_Rate,Over_Free_Period_Rate,Maintenance_Cost_Per_Month
+2013,Classic Bikes,4000,Single Ride,1.0,1.0,0,0.17,0.0,15.0
+2013,Classic Bikes,4000,Day Pass,7.0,1.0,30,0.17,0.0,15.0
+2013,Classic Bikes,4000,Annual Pass,75.0,1.0,30,0.17,0.0,15.0
+2014,Classic Bikes,4500,Single Ride,1.0,1.0,0,0.17,0.0,15.0
+2014,Classic Bikes,4500,Day Pass,7.0,1.0,30,0.17,0.0,15.0
+2014,Classic Bikes,4500,Annual Pass,75.0,1.0,30,0.17,0.0,15.0
+2015,Classic Bikes,5000,Single Ride,1.0,1.0,0,0.17,0.0,15.0
+2015,Classic Bikes,5000,Day Pass,9.95,1.0,30,0.17,0.0,15.0
+2015,Classic Bikes,5000,Annual Pass,75.0,1.0,30,0.17,0.0,15.0
+2016,Classic Bikes,5500,Single Ride,1.0,1.0,0,0.17,0.0,18.0
+2016,Classic Bikes,5500,Day Pass,9.95,1.0,30,0.17,0.0,18.0
+2016,Classic Bikes,5500,Annual Pass,99.0,1.0,30,0.17,0.0,18.0
+2017,Classic Bikes,6000,Single Ride,1.0,1.0,0,0.17,0.0,18.0
+2017,Classic Bikes,6000,Day Pass,9.95,1.0,30,0.17,0.0,18.0
+2017,Classic Bikes,6000,Annual Pass,99.0,1.0,30,0.17,0.0,18.0
+2018,Classic Bikes,6500,Single Ride,1.0,1.0,0,0.17,0.16,20.0
+2018,Classic Bikes,6500,Day Pass,15.0,1.0,30,0.17,0.16,20.0
+2018,Classic Bikes,6500,Annual Pass,99.0,1.0,30,0.17,0.16,20.0
+2019,Classic Bikes,7000,Single Ride,1.0,1.0,0,0.17,0.16,20.0
+2019,Classic Bikes,7000,Day Pass,15.0,1.0,30,0.17,0.16,20.0
+2019,Classic Bikes,7000,Annual Pass,99.0,1.0,30,0.17,0.16,20.0
+2020,Classic Bikes,7500,Single Ride,1.0,1.0,0,0.17,0.16,25.0
+2020,Classic Bikes,7500,Day Pass,15.0,1.0,30,0.17,0.16,25.0
+2020,Classic Bikes,7500,Annual Pass,99.0,1.0,30,0.17,0.16,25.0
+2020,E-Bikes,1000,Single Ride,1.0,1.0,0,0.39,0.16,40.0
+2020,E-Bikes,1000,Annual Pass,99.0,1.0,30,0.39,0.16,40.0
+2021,Classic Bikes,8000,Single Ride,1.0,1.0,0,0.17,0.16,25.0
+2021,Classic Bikes,8000,Day Pass,15.0,1.0,30,0.17,0.16,25.0
+2021,Classic Bikes,8000,Annual Pass,108.0,1.0,30,0.17,0.16,25.0
+2021,E-Bikes,1500,Single Ride,1.0,1.0,0,0.39,0.16,40.0
+2021,E-Bikes,1500,Annual Pass,108.0,1.0,30,0.39,0.16,40.0
+2022,Classic Bikes,8500,Single Ride,1.0,1.0,0,0.16,0.16,25.0
+2022,Classic Bikes,8500,Day Pass,15.0,1.0,30,0.16,0.16,25.0
+2022,Classic Bikes,8500,Annual Pass,119.0,1.0,30,0.16,0.16,25.0
+2022,E-Bikes,2000,Single Ride,1.0,1.0,0,0.39,0.16,40.0
+2022,E-Bikes,2000,Annual Pass,119.0,1.0,30,0.39,0.16,40.0
+2023,Classic Bikes,9000,Day Pass,16.5,0.0,30,0.17,0.17,25.0
+2023,Classic Bikes,9000,Subscription,199.0,0.0,30,0.17,0.17,25.0
+2023,Classic Bikes,9000,Annual Pass,130.9,0.0,30,0.17,0.17,25.0
+2023,E-Bikes,2500,Single Ride,1.0,1.0,0,0.42,0.18,45.0
+2023,E-Bikes,2500,Annual Pass,149.0,1.0,30,0.42,0.18,45.0
+2023,Scooters,500,Single Ride,1.0,1.0,0,0.42,0.29,50.0
+2023,Scooters,500,Annual Pass,129.0,1.0,30,0.42,0.29,50.0
+2024,Classic Bikes,9500,Single Ride,1.0,0.0,0,0.18,0.18,25.0
+2024,Classic Bikes,9500,Day Pass,18.1,0.0,30,0.18,0.18,25.0
+2024,Classic Bikes,9500,Subscription,199.0,0.0,45,0.18,0.18,25.0
+2024,Classic Bikes,9500,Annual Pass,143.9,0.0,45,0.18,0.18,25.0
+2024,E-Bikes,3000,Single Ride,1.0,1.0,0,0.44,0.18,45.0
+2024,E-Bikes,3000,Day Pass,159.0,0.0,30,0.44,0.18,45.0
+2024,Scooters,1000,Single Ride,1.0,1.0,0,0.44,0.29,50.0
+2024,Scooters,1000,Day Pass,139.0,0.0,30,0.44,0.29,50.0
+2025,Classic Bikes,10000,Single Ride,1.0,0.0,0,0.18,0.18,25.0
+2025,Classic Bikes,10000,Day Pass,18.1,0.0,30,0.18,0.18,25.0
+2025,Classic Bikes,10000,Subscription,199.0,0.0,45,0.18,0.18,25.0
+2025,Classic Bikes,10000,Annual Pass,143.9,0.0,45,0.18,0.18,25.0
+2025,E-Bikes,3500,Single Ride,1.0,1.0,0,0.44,0.18,45.0
+2025,E-Bikes,3500,Day Pass,159.0,0.0,30,0.44,0.18,45.0
+2025,Scooters,1500,Single Ride,1.0,1.0,0,0.44,0.29,50.0
+2025,Scooters,1500,Day Pass,139.0,0.0,30,0.44,0.29,50.0
