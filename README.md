@@ -19,25 +19,10 @@
 
 ## Структура проекта
 
-data/
-  bikes_amount.tsv
-  prices.csv
-  stations.csv
-  summary.csv
-  final_report.csv
-  profits.csv
-
-notebooks/
-  01_stations_and_raw_data.ipynb
-  02_data_cleaning.ipynb
-  03_station_enrichment.ipynb
-  04_trip_revenue.ipynb
-  05_dashboard_and_unit_economics.ipynb
-
-download.py
-divvy_analysis_presentation.pdf
-README.md
-
+├── data/                # итоговые данные и расчёты
+├── notebooks/           # пайплайн анализа
+├── download.py          # скрипт для скачивания данных
+├── divvy_analysis_presentation.pdf  # презентация
 
 ## Как воспроизвести
 
