@@ -1,38 +1,72 @@
-# Анализ открытых данных о поездках компании Divvy
+# Анализ открытых данных поездок Divvy
 
-В этом репозитории представлена моя практическая работа по анализу [открытых данных о поездках компании Divvy](https://divvy-tripdata.s3.amazonaws.com/index.html).
+Этот репозиторий содержит итоговый проект по анализу данных, выполненный как итоговый проект в рамках специализации "Большие данные" Яндекс Лицея.
 
----
-
-## 📂 Описание файлов
-
-- **`download.py`** — скрипт для быстрого скачивания и распаковки данных с ресурса Divvy.
-- **`complete_work.ipynb`** — основной ноутбук, в котором подробно описана проделанная работа. В результате анализа была рассчитана прибыльность одного велосипеда.
-- **`prices.csv`** — исторические данные о ценах тарифов компании Divvy. Частично данные были смоделированы, поскольку не удалось восстановить все тарифы за прошлые годы.
-- **`bike_amounts.tsv`** — исторические данные о численности велопарка Divvy. Также содержит приближённые оценки для недостающих лет.
-- **`profits.csv`** — рассчитанная прибыльность каждого типа велосипеда по годам.
-- **`final_report.csv`** — итоговые данные о доходах и убытках.
-
----
-
-## 📁 Предполагаемая структура проекта
-
-├── _data/ # Распакованные данные (stations, trips)
-
-├── complete_work.ipynb # Основной ноутбук с анализом данных
-
-└── download.py # Скрипт для загрузки и распаковки zip-архивов
+В проекте проведён анализ открытых данных о поездках сервиса велопроката Divvy (Чикаго): от сбора и очистки данных до расчёта юнит-экономики и построения дашборда.
 
 
----
+## Что сделано
 
-## 📊 Дашборд
+- Объединены десятки CSV-файлов с поездками за разные годы
+- Структура данных приведена к единому формату
+- Проведена очистка данных (выбросы, дубликаты, некорректные значения)
+- Восстановлены координаты и названия станций
+- Рассчитаны доходы с каждой поездки
+- Оценены расходы (аренда станций, сотрудники)
+- Рассчитана прибыль и юнит-экономика по типам велосипедов
+- Построен интерактивный дашборд
 
-Интерактивный дашборд, построенный на основе анализа данных:  
-👉 [Посмотреть в Яндекс DataLens](https://datalens.yandex/090o6gpwsjhcm)
 
----
+## Структура проекта
 
-## 🌐 English Summary
+data/
+  bikes_amount.tsv
+  prices.csv
+  stations.csv
+  summary.csv
+  final_report.csv
+  profits.csv
 
-This repository contains a practical analysis of [Divvy trips data](https://divvy-tripdata.s3.amazonaws.com/index.html). See the Jupyter notebook for full details.
+notebooks/
+  01_stations_and_raw_data.ipynb
+  02_data_cleaning.ipynb
+  03_station_enrichment.ipynb
+  04_trip_revenue.ipynb
+  05_dashboard_and_unit_economics.ipynb
+
+download.py
+divvy_analysis_presentation.pdf
+README.md
+
+
+## Как воспроизвести
+
+1. Скачать данные:
+   python download.py
+
+2. Запустить ноутбуки по порядку:
+   01 → 02 → 03 → 04 → 05
+
+
+## Дашборд
+
+[Интерактивный дашборд с результатами анализа](https://datalens.yandex/090o6gpwsjhcm
+
+
+## Презентация
+
+Итоговая презентация проекта:
+divvy_analysis_presentation.pdf
+
+
+## Примечания
+
+- Сырые данные не хранятся в репозитории и скачиваются через download.py
+- Часть данных о тарифах и их ценах была восстановлена по открытым источникам и оценкам
+
+
+## 🌍 English Summary
+
+This repository contains a final project completed as part of the Yandex Data Science specialization.
+
+The project analyzes Divvy bike-sharing data: from raw data collection and cleaning to revenue estimation, cost modeling, and unit economics analysis. The pipeline is split into several notebooks, each responsible for a specific stage of the analysis.
