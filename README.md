@@ -35,13 +35,12 @@
 
 ## Дашборд
 
-[Интерактивный дашборд с результатами анализа](https://datalens.yandex/090o6gpwsjhcm
+[Интерактивный дашборд с результатами анализа в Яндекс DataLens](https://datalens.yandex/090o6gpwsjhcm)
 
 
 ## Презентация
 
-Итоговая презентация проекта:
-divvy_analysis_presentation.pdf
+Итоговая презентация проекта в файле divvy_analysis_presentation.pdf
 
 
 ## Примечания
